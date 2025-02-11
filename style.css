@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;}
+header {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 70px;}
+header .logo {
+    color: white;
+    font-weight: bold;}
+
+
+
+
+
+
+
+    header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: yellow;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero-text h1 {
+    color: red;
+    font-size: 36px;
+}
+
+.event {
+    background-color: black;
+    padding: 200px;
+    text-align: center;
+}
+
+.event p {
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+.event .free {
+    background-color: red;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.about {
+    background-color: rgb(251, 255, 40);
+    padding: 200px;
+    text-align: center;
+    color: black;
+}
+
+.about h2 {
+    color: red;
+    font-size: 24px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+.stats div {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.promo {
+    text-align: center;
+    padding: 20px;
+}
+
+.promo-banner {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.promo-description {
+    color: white;
+    font-size: 50px;
+}
+
+.promo-description .important {
+    font-weight: bold;
+    color: red;
+}
+
+footer {
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer .contact-info {
+    padding: 10px;
+}
+
+footer .social-media a {
+    color: rgb(0, 0, 0);
+    margin: 0 10px;
+    text-decoration: none;
+}
